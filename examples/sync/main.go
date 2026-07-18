@@ -5,12 +5,12 @@ import (
 	"log"
 	"os"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
-	pcm "github.com/WqyJh/go-openai-realtime/examples/voice/pcm"
+	openairt "github.com/hanzoai/go-openai-realtime"
+	pcm "github.com/hanzoai/go-openai-realtime/examples/voice/pcm"
 	"github.com/faiface/beep"
 	"github.com/faiface/beep/speaker"
 
-	"github.com/WqyJh/go-cosyvoice"
+	"github.com/hanzoai/go-cosyvoice"
 )
 
 const (

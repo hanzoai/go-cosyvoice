@@ -1,10 +1,10 @@
-module github.com/WqyJh/go-cosyvoice
+module github.com/hanzoai/go-cosyvoice
 
 go 1.19
 
 require (
-	github.com/WqyJh/go-openai-realtime v0.5.1-0.20250210083616-024eddd5a481
-	github.com/WqyJh/go-openai-realtime/contrib/ws-gorilla v0.0.0-20250210083616-024eddd5a481
+	github.com/hanzoai/go-openai-realtime v1.0.0
+	github.com/hanzoai/go-openai-realtime/contrib/ws-gorilla v1.0.0
 	github.com/lithammer/shortuuid v3.0.0+incompatible
 	github.com/stretchr/testify v1.9.0
 )

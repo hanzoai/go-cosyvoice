@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
+	openairt "github.com/hanzoai/go-openai-realtime"
 )
 
 type wsConn struct {

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
-	gorilla "github.com/WqyJh/go-openai-realtime/contrib/ws-gorilla"
+	openairt "github.com/hanzoai/go-openai-realtime"
+	gorilla "github.com/hanzoai/go-openai-realtime/contrib/ws-gorilla"
 )
 
 type Client struct {

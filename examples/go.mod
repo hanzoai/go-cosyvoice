@@ -1,11 +1,11 @@
-module github.com/WqyJh/go-cosyvoice/examples
+module github.com/hanzoai/go-cosyvoice/examples
 
 go 1.19
 
 require (
-	github.com/WqyJh/go-cosyvoice v0.1.0
-	github.com/WqyJh/go-openai-realtime v0.5.1-0.20250210083616-024eddd5a481
-	github.com/WqyJh/go-openai-realtime/examples v0.0.0-20250210083616-024eddd5a481
+	github.com/hanzoai/go-cosyvoice v0.1.0
+	github.com/hanzoai/go-openai-realtime v0.5.1-0.20250210083616-024eddd5a481
+	github.com/hanzoai/go-openai-realtime/examples v0.0.0-20250210083616-024eddd5a481
 	github.com/faiface/beep v1.1.0
 )
 
@@ -21,4 +21,4 @@ require (
 	golang.org/x/sys v0.25.0 // indirect
 )
 
-// replace github.com/WqyJh/go-cosyvoice => ../
+// replace github.com/hanzoai/go-cosyvoice => ../

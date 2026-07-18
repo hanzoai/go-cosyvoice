@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/WqyJh/go-cosyvoice"
-	openairt "github.com/WqyJh/go-openai-realtime"
-	pcm "github.com/WqyJh/go-openai-realtime/examples/voice/pcm"
+	"github.com/hanzoai/go-cosyvoice"
+	openairt "github.com/hanzoai/go-openai-realtime"
+	pcm "github.com/hanzoai/go-openai-realtime/examples/voice/pcm"
 	"github.com/faiface/beep"
 	"github.com/faiface/beep/speaker"
 )

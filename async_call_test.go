@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WqyJh/go-cosyvoice"
+	"github.com/hanzoai/go-cosyvoice"
 	"github.com/stretchr/testify/require"
 )
 
