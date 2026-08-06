@@ -1,0 +1,10 @@
+# Go client library for the CosyVoice TTS websocket API. The repo's own gate
+# (Makefile `test`) is the suite; vet is added because it compiles the same
+# packages and catches what the suite cannot reach.
+#
+# The live-API tests skip themselves without COSYVOICE_API_KEY, so what this
+# proves on every push is that the client compiles and its offline assertions
+# hold — it goes red on a broken protocol type or a bad frame encoder.
+test:
+  - name: test
+    run: go vet ./... && go test -race ./...
