@@ -1,6 +1,6 @@
 module github.com/hanzoai/go-cosyvoice
 
-go 1.19
+go 1.27.1
 
 require (
 	github.com/hanzoai/go-openai-realtime v1.0.0

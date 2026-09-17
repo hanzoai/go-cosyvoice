@@ -6,11 +6,11 @@ import (
 )
 
 type Header struct {
-	Action     Action                 `json:"action"`
-	TaskID     string                 `json:"task_id"`
-	Streaming  string                 `json:"streaming"`
-	Event      string                 `json:"event"`
-	Attributes map[string]interface{} `json:"attributes"`
+	Action     Action         `json:"action"`
+	TaskID     string         `json:"task_id"`
+	Streaming  string         `json:"streaming"`
+	Event      string         `json:"event"`
+	Attributes map[string]any `json:"attributes"`
 	Error
 }
 

@@ -183,8 +183,7 @@ func (c *wsConn) sendMessage(sendCh <-chan Task) {
 			c.ticker.Reset(c.pingInterval)
 
 			if err != nil {
-				var permanent *openairt.PermanentError
-				if errors.As(err, &permanent) {
+				if permanent, ok := errors.AsType[*openairt.PermanentError](err); ok {
 					c.logger.Errorf("send message permanent error: %w", permanent.Err)
 					return
 				}
