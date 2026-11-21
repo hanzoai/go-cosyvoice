@@ -1,5 +1,7 @@
 # CosyVoice SDK for Golang
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/go-cosyvoice&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/go-cosyvoice&ref=main&action=edit) [![Deploy with Hanzo](https://hanzo.app/badges/deploy-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/go-cosyvoice&ref=main&action=deploy)
+
 [![Go Reference](https://pkg.go.dev/badge/github.com/WqyJh/go-cosyvoice.svg)](https://pkg.go.dev/github.com/WqyJh/go-cosyvoice)
 [![Go Report Card](https://goreportcard.com/badge/github.com/WqyJh/go-cosyvoice)](https://goreportcard.com/report/github.com/WqyJh/go-cosyvoice)
 [![codecov](https://codecov.io/gh/WqyJh/go-cosyvoice/branch/main/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/WqyJh/go-cosyvoice)
